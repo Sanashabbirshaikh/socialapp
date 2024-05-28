@@ -1,0 +1,253 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#D977FC;
+}
+
+header {
+    background-color:red;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar .profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.new-post {
+    margin-bottom: 20px;
+}
+
+.new-post textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-post button {
+    padding: 10px 20px;
+    background-color:purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header .post-user h3 {
+    margin: 0;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-footer button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color:purple;
+    
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:red;
+    color: white;
+}
+
+footer .footer-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+footer .footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+footer .footer-nav ul li {
+    margin: 0 10px;
+}
+
+footer .footer-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.post, .search-result {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.post img, .search-result img {
+    width: 100%;
+}
+
+.post .post-header, .search-result .result-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post .post-header img, .search-result .result-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post .post-user h3, .search-result .result-user h3 {
+    margin: 0;
+}
+ .person {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .person img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .person p {
+            margin: 0;
+            font-size: 16px;
+        }
+ .instagram-post {
+            max-width: 500px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .post-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .post-caption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+.team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .team-member p {
+            margin: 0;
+            font-size: 18px;
+        }
+		.event {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .event img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .event h2 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+        .event p {
+            margin-bottom: 10px;
+        }
+		
